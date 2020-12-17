@@ -10,14 +10,19 @@ import org.openqa.selenium.support.PageFactory;
 
 import resources.base;
 
-public class AutomationPractice extends base{
+public class AutomationPractice_2 extends base{
 	WebDriver driver;
 
-	public AutomationPractice(WebDriver driver) {
+	public AutomationPractice_2(WebDriver driver) {
 		super();
 		this.driver = driver;
 		PageFactory.initElements(driver, this);
 	}
+          @FindBy(css = "a[href*='seleniumPractise']")
+	       WebElement seleniumPractise;
+          @FindBy(css = "a[href*='AutomationPractice']")
+      	WebElement AutomationPractise;
+	
 		@FindBy(xpath="//div[@id='radio-btn-example']/fieldset/label/input")
 		List<WebElement> radioButtons;	
 		
@@ -27,6 +32,12 @@ public class AutomationPractice extends base{
 		@FindBy(xpath="//*[@id='checkbox-example']/fieldset/label/input")
 		List<WebElement> checkboxes;
 		
+		@FindBy(id="autocomplete")
+		WebElement autoComplete;
+		
+		public WebElement getAutoComplete() {
+			return autoComplete;
+		}
 		public List<WebElement> getCheckboxes() {
 			return checkboxes;
 		}
@@ -35,6 +46,12 @@ public class AutomationPractice extends base{
 		}
 		public List<WebElement> getRadioButtons() {
 			return radioButtons;
+		}
+		public WebElement getSeleniumPractise() {
+			return seleniumPractise;
+		}
+		public WebElement getAutomationPractise() {
+			return AutomationPractise;
 		}
 		
 	}

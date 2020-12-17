@@ -24,11 +24,9 @@ public class Loginpage {
 	@FindBy(xpath = "//h5[@class='section-title h1']")
 
 	WebElement title;
-	@FindBy(css = "a[href*='seleniumPractise']")
 	
-	WebElement seleniumPractise;
-	@FindBy(css = "a[href*='AutomationPractice']")
-	WebElement AutomationPractise;
+	
+	
 	@FindBy(xpath="//button[@type='submit']")
 	WebElement submit;
 
@@ -36,13 +34,9 @@ public class Loginpage {
 		return title;
 	}
 
-	public WebElement getSeleniumPractise() {
-		return seleniumPractise;
-	}
+	
 
-	public WebElement getAutomationPractise() {
-		return AutomationPractise;
-	}
+	
 	
 	
 	

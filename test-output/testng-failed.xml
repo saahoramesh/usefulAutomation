@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AutomationProject.academy.validateDropdownUsingSelect">
+      <class name="AutomationProject.academy.AutomationPractise_2Test">
         <methods>
-          <include name="dropDowns"/>
+          <include name="validateAutoSuggest"/>
         </methods>
-      </class> <!-- AutomationProject.academy.validateDropdownUsingSelect -->
+      </class> <!-- AutomationProject.academy.AutomationPractise_2Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

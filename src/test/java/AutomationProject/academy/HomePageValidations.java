@@ -14,7 +14,7 @@ public class HomePageValidations extends base {
 	WebDriver driver;
 	Loginpage logn;
 	utilities util;
-	AutomationPractice ap;
+	AutomationPractice_2 ap;
 	int index=2;
 	
 /*@BeforeClass
@@ -28,10 +28,10 @@ public class HomePageValidations extends base {
 	
 	@Test
 	public void ValidateRadioButtons() throws IOException{
-		
-		util=new utilities();
+		authenticateTheURL(new Loginpage(driver));
+		//util=new utilities();
 		driver=util.validatetextOfHeadingInLandingPage(new Loginpage(driver));
-		 ap=new AutomationPractice(driver);
+		 ap=new AutomationPractice_2(driver);
 		List<WebElement> buttons=ap.getRadioButtons();
 		for(int i=0;i<buttons.size();i++)
 		{
@@ -46,7 +46,7 @@ public class HomePageValidations extends base {
 	public void validateCheckBox() {
 		//util=new utilities();
 		//util.validatetextOfHeadingInLandingPage(new Loginpage(driver));
-		ap=new AutomationPractice(driver);
+		ap=new AutomationPractice_2(driver);
 		List<WebElement> chck=ap.getCheckboxes();
 		for(int i=0;i<chck.size();i++)
 		{

@@ -21,7 +21,7 @@ public void dropDowns() throws IOException {
 	
 	//utilities util=new utilities();
 	//util.validatetextOfHeadingInLandingPage(new Loginpage(driver));
-	AutomationPractice drop=new AutomationPractice(driver);
+	AutomationPractice_2 drop=new AutomationPractice_2(driver);
 	drop.getRadioButtons();
 	Select sl=new Select(drop.getDropDownSelect());
 	sl.selectByIndex(2);
