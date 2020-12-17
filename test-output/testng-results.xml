@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="16805" started-at="2020-12-11T14:13:13Z" finished-at="2020-12-11T14:13:30Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="16805" started-at="2020-12-11T14:13:13Z" finished-at="2020-12-11T14:13:30Z">
+      <class name="AutomationProject.academy.validateDropdownUsingSelect">
+        <test-method status="PASS" signature="dropDowns()[pri:0, instance:AutomationProject.academy.validateDropdownUsingSelect@5ae9a829]" name="dropDowns" duration-ms="16784" started-at="2020-12-11T19:43:13Z" finished-at="2020-12-11T19:43:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dropDowns -->
+      </class> <!-- AutomationProject.academy.validateDropdownUsingSelect -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
