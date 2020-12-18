@@ -5,7 +5,11 @@
     <classes>
       <class name="AutomationProject.academy.AutomationPractise_2Test">
         <methods>
-          <include name="validateAutoSuggest"/>
+          <include name="navigateToAtomationPractise2Page"/>
+          <include name="validateAutoSuggest" invocation-numbers="0 1"/>
+          <include name="validateCheckBox"/>
+          <include name="validateRadioButton"/>
+          <include name="validateSimpleDropDown"/>
         </methods>
       </class> <!-- AutomationProject.academy.AutomationPractise_2Test -->
     </classes>

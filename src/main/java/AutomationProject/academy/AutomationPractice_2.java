@@ -35,6 +35,12 @@ public class AutomationPractice_2 extends base{
 		@FindBy(id="autocomplete")
 		WebElement autoComplete;
 		
+		@FindBy(css="li.ui-menu-item div")
+		 List<WebElement> countries;
+		
+		public List<WebElement> getCountries() {
+			return countries;
+		}
 		public WebElement getAutoComplete() {
 			return autoComplete;
 		}

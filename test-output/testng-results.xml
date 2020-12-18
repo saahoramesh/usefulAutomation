@@ -1,33 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="5" passed="5">
+<testng-results skipped="0" failed="0" total="3" passed="3">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="15585" started-at="2020-12-17T16:13:06Z" finished-at="2020-12-17T16:13:22Z">
+  <suite name="RahulShettyAcademy" duration-ms="15356" started-at="2020-12-18T15:47:15Z" finished-at="2020-12-18T15:47:30Z">
     <groups>
+      <group name="Smoke">
+        <method signature="AutomationPractise_2Test.validateAutoSuggest(java.lang.String, java.lang.String)[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@643b1d11]" name="validateAutoSuggest" class="AutomationProject.academy.AutomationPractise_2Test"/>
+        <method signature="AutomationPractise_2Test.validateCheckBox()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@643b1d11]" name="validateCheckBox" class="AutomationProject.academy.AutomationPractise_2Test"/>
+      </group> <!-- Smoke -->
     </groups>
-    <test name="Default test" duration-ms="15585" started-at="2020-12-17T16:13:06Z" finished-at="2020-12-17T16:13:22Z">
+    <test name="AutomationPractice-2" duration-ms="15356" started-at="2020-12-18T15:47:15Z" finished-at="2020-12-18T15:47:30Z">
       <class name="AutomationProject.academy.AutomationPractise_2Test">
-        <test-method status="PASS" signature="navigateToAtomationPractise2Page()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@5ae9a829]" name="navigateToAtomationPractise2Page" duration-ms="13672" started-at="2020-12-17T21:43:06Z" finished-at="2020-12-17T21:43:20Z">
+        <test-method status="PASS" signature="navigateToAtomationPractise2Page()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@643b1d11]" name="navigateToAtomationPractise2Page" is-config="true" duration-ms="9788" started-at="2020-12-18T21:17:15Z" finished-at="2020-12-18T21:17:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- navigateToAtomationPractise2Page -->
-        <test-method status="PASS" signature="validateAutoSuggest()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@5ae9a829]" name="validateAutoSuggest" duration-ms="1063" started-at="2020-12-17T21:43:20Z" finished-at="2020-12-17T21:43:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- validateAutoSuggest -->
-        <test-method status="PASS" signature="validateCheckBox()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@5ae9a829]" name="validateCheckBox" duration-ms="343" started-at="2020-12-17T21:43:21Z" finished-at="2020-12-17T21:43:21Z">
+        <test-method status="PASS" signature="validateCheckBox()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@643b1d11]" name="validateCheckBox" duration-ms="234" started-at="2020-12-18T21:17:25Z" finished-at="2020-12-18T21:17:25Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateCheckBox -->
-        <test-method status="PASS" signature="validateRadioButton()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@5ae9a829]" name="validateRadioButton" duration-ms="172" started-at="2020-12-17T21:43:21Z" finished-at="2020-12-17T21:43:22Z">
+        <test-method status="PASS" signature="validateAutoSuggest(java.lang.String, java.lang.String)[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@643b1d11]" name="validateAutoSuggest" duration-ms="2749" started-at="2020-12-18T21:17:25Z" data-provider="getData" finished-at="2020-12-18T21:17:28Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[in]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[India]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateRadioButton -->
-        <test-method status="PASS" signature="validateSimpleDropDown()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@5ae9a829]" name="validateSimpleDropDown" duration-ms="300" started-at="2020-12-17T21:43:22Z" finished-at="2020-12-17T21:43:22Z">
+        </test-method> <!-- validateAutoSuggest -->
+        <test-method status="PASS" signature="validateAutoSuggest(java.lang.String, java.lang.String)[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@643b1d11]" name="validateAutoSuggest" duration-ms="2385" started-at="2020-12-18T21:17:28Z" data-provider="getData" finished-at="2020-12-18T21:17:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ba]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Bahrain]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- validateSimpleDropDown -->
+        </test-method> <!-- validateAutoSuggest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:AutomationProject.academy.AutomationPractise_2Test@643b1d11]" name="tearDown" is-config="true" duration-ms="176" started-at="2020-12-18T21:17:30Z" finished-at="2020-12-18T21:17:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
       </class> <!-- AutomationProject.academy.AutomationPractise_2Test -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- AutomationPractice-2 -->
+  </suite> <!-- RahulShettyAcademy -->
 </testng-results>
